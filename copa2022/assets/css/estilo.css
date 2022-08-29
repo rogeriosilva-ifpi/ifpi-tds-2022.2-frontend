@@ -1,0 +1,32 @@
+body {
+    background-color: #009688;
+}
+
+h1{
+    color: #ffeb3b;
+    text-align: center;
+}   
+
+h2 {
+    color: #b2dfdb;
+}
+
+.logo {
+    width: 30%;
+}
+
+.moldura {
+    border: 2px solid black;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+#topo {
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px;
+}
