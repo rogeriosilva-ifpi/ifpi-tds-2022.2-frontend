@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="assets/js/imc.js" defer></script>
+    <title>IMC Calc</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://png.pngtree.com/png-clipart/20220627/original/pngtree-summer-fruits-for-healthy-lifestyle-pineapple-fruit-vector-illustration-cartoon-png-image_8214906.png"
+        alt="IMC Image"
+      />
+      <link rel="stylesheet" href="assets/css/imc.css" />
+      <h1>Calculadora IMC</h1>
+    </header>
+    <main>
+      <div>
+        <h2>Forneça seus dados</h2>
+
+        <label for="cx_nome">Nome: </label>
+        <input type="text" id="cx_nome" />
+
+        <label for="cx_peso">Peso(kg): </label>
+        <input type="number" id="cx_peso" />
+
+        <label for="cx_altura">Altura(m): </label>
+        <input type="number" id="cx_altura" />
+
+        <button id="btn_calcular">Calcular ...</button>
+        <button id="btn_limpar">Limpar</button>
+      </div>
+      <div>
+        <h2 id="resultado">...</h2>
+      </div>
+    </main>
+    <footer>
+      <p>Fim por fim feito por mim: Rogério Silva @ 2022</p>
+    </footer>
+  </body>
+</html>
