@@ -1,0 +1,28 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Roboto';
+}
+
+main {
+    min-height: 400px;
+    max-width: 500px;
+    /* background: bisque; */
+    margin: 0 auto;
+}
+
+p#erro {
+    background: red;
+}
+
+p#acerto {
+    background: green;
+}
+
+.visivel {
+    display: block;
+}
+
+.invisivel {
+    display: none;
+}

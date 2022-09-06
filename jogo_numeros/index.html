@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <title>Jogo</title>
+    <script src="assets/js/comportamento.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Jogo Adivinhe um número</h1>
+
+      <p>
+        Selecionamos um número aleatório entre 1 e 100. Veja se consegue
+        adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite está
+        com valor alto ou baixo.
+      </p>
+
+      <form action="#">
+        <label for="campo_numero">Digite seu palpite:</label>
+        <input id="campo_numero" type="number" min="1" max="100" />
+        <input id="btn_palpite" type="submit" value="Enviar palpite" />
+      </form>
+
+      <p id="palpites">Palpites anteriores:</p>
+
+      <p id="erro">Errado!</p>
+      <p id="acerto">Parabéns! Seu número está certo!</p>
+
+      <p id="dica">Seu palpite está muito baixo!</p>
+    </main>
+  </body>
+</html>
