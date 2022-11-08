@@ -1,12 +1,14 @@
 import './App.css'
-import { Hello } from './Hello'
+import { Felicidade } from './Felicidade'
 
 export function App() {
+
   return (
     <div className="App">
-      <Hello name="Nícolas" />
-      <Hello name="Jess" />
-      <Hello name='Rogério' />
+      <a href=""></a>
+      <p>Estudos de React.JS</p>
+      <Felicidade a="Madalena" />
+      <Felicidade a="Lucas" />
     </div>
   )
 }
